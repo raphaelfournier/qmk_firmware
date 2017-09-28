@@ -10,8 +10,8 @@ if [[ -n "$(type -P pacman )" ]]; then
   # Allow user to speed up package installs using powerpill/wget tweaks
   # Always run the pacman mirror update script if possible when vagrant comes up
   # This will ensure that users never get stalled on a horribly slow mirror
-  pacman -Syyu --needed --noconfirm
-  pacman -S --needed --noconfirm \
+  pacman -Syyu --needed 
+  pacman -S --needed \
     base-devel \
     avr-gcc \
     avr-binutils \

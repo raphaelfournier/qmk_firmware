@@ -90,6 +90,12 @@
     S__NOTE(_REST),   \
     ED_NOTE(_GS7 ),
 
+#define AZERTY_SOUND \
+    Q__NOTE(_E4), Q__NOTE(_E4), Q__NOTE(_F4), Q__NOTE(_G4), \
+    Q__NOTE(_G4), Q__NOTE(_F4), Q__NOTE(_E4), Q__NOTE(_D4), \
+    Q__NOTE(_C4), Q__NOTE(_C4), Q__NOTE(_D4), Q__NOTE(_E4), \
+    QD_NOTE(_E4), E__NOTE(_D4), H__NOTE(_D4),
+
 #define DVORAK_SOUND \
     E__NOTE(_GS6 ),  \
     E__NOTE(_A6  ),  \
